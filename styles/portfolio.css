@@ -42,7 +42,7 @@ p {
   font-size: 96px;
 }
 .hero h2 {
-  font-family: var(--default-font);
+  font-family: var(--header-font);
   font-size: 24px;
   color: var(--accent-header-color);
   line-height: 2;
@@ -71,7 +71,25 @@ p {
 
 @media (max-width: 960px) {
   .project-description {
-    padding: 0;
     text-align: center;
+    padding: 0px;
+  }
+  .hero {
+    padding: 20px 50px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+  .hero p {
+    font-size: 25px;
+  }
+  .description-row {
+    margin-bottom: 20px;
+  }
+  p {
+    line-height: 20px;
   }
 }
