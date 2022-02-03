@@ -69,6 +69,27 @@ p {
   padding: 120px 60px;
 }
 
+.about-content {
+  margin: 30px;
+}
+
+.about-content h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+.about-content h3 {
+  font-family: var(--default-font);
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--accent-header-color);
+}
+.about-content p {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(39, 33, 66, 0.7);
+}
+
 @media (max-width: 960px) {
   .project-description {
     text-align: center;
@@ -91,5 +112,20 @@ p {
   }
   p {
     line-height: 20px;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .about-content h1 {
+    font-size: 36px;
+  }
+  .about-content h3 {
+    font-size: 15px;
+  }
+  .about-content p {
+    line-height: 20px;
+  }
+  .about-content img {
+    margin-top: 30px;
   }
 }
