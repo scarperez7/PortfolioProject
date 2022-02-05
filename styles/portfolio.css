@@ -116,7 +116,18 @@ p {
   color: var(--accent-header-color);
   margin-top: 0px;
 }
-
+.contact {
+  margin: 40px;
+}
+.contact h1 {
+  font-size: 64px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+.contact h3 {
+  font-family: var(--default-font);
+  font-weight: 700;
+}
 @media (max-width: 960px) {
   .project-description {
     text-align: center;
@@ -162,5 +173,12 @@ p {
   .work-header {
     margin-bottom: 20px;
     text-align: center;
+  }
+  .contact {
+    text-align: center;
+    margin: 40px;
+  }
+  .contact h1 {
+    font-size: 45px;
   }
 }
