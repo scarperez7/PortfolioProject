@@ -25,6 +25,35 @@ p {
   line-height: 30px;
 }
 
+nav {
+  padding: 15px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  max-height: 40px;
+}
+
+nav li {
+  text-decoration: none;
+  display: inline;
+  margin-right: 20px;
+  line-height: 42px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--accent-header-color);
+}
+nav a:hover {
+  color: var(--branding-color);
+  transition: 100ms;
+}
+nav li.active a {
+  text-decoration: underline;
+}
 .hero {
   text-align: center;
   background: #f9f7fe;
