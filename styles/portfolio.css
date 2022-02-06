@@ -160,8 +160,9 @@ nav li.active a {
 }
 footer .container {
   background: var(--accent-background-color);
-  padding: 30px;
+  padding: 20px 30px;
   border-radius: 20px;
+  margin: 30px 60px;
 }
 
 .email-link {
@@ -177,6 +178,7 @@ footer .container {
 
 .email-link:hover a {
   color: var(--branding-color);
+  transition: all 100ms ease-in-out;
 }
 .social-links {
   display: inline;
